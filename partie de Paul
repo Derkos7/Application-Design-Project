@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>activity_detail_game1.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_detail_game1.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;LinearLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#11111F&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:padding</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/game_image&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;200dp&quot;</span>
+        <span class="s1">android:scaleType</span><span class="s2">=&quot;centerCrop&quot;</span>
+        <span class="s1">android:src</span><span class="s2">=&quot;@drawable/the_outlast_trials_cover&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/game_title&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10dp&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;The Outlast Trials&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#E277CD&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;30dp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/game_play_time&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:drawablePadding</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Game time: 6h 34min&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;18dp&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/game_consoles&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#E277CD&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;italic&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Available on PC, PS5, Xbox Series X&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;16dp&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/game_description&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;14sp&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;The Outlast Trials is emerging out of Early Access on March 5 for PC, PS5, and Xbox Series X in a terrifying prequel to some of the best horror games in recent memory. Set in the Cold War, you (and three friends, if you're up for some online co-op) will be fighting to survive strange and perverse trials instituted by the Murkoff Corporation. With full character creation, horrifying stealth combat, and no end of weird puzzles to circumvent, The Outlast Trials is set to be one of the most interesting upcoming horror games of 2024.&quot; </span><span class="s0">/&gt;</span>
+
+
+    <span class="s0">&lt;Button</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/add_game_button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;+ Add Game&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#E277CD&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;LinearLayout</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:orientation</span><span class="s2">=&quot;horizontal&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#E277CD&quot;</span>
+        <span class="s1">android:padding</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/library_button&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_weight</span><span class="s2">=&quot;1&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Library&quot;</span>
+            <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;?android:attr/selectableItemBackgroundBorderless&quot;</span>
+            <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/profile_button&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_weight</span><span class="s2">=&quot;1&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Profile&quot;</span>
+            <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;?android:attr/selectableItemBackgroundBorderless&quot;</span>
+            <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/home_button&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_weight</span><span class="s2">=&quot;1&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Home&quot;</span>
+            <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/audiowide&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;?android:attr/selectableItemBackgroundBorderless&quot;</span>
+            <span class="s1">android:textColor</span><span class="s2">=&quot;#FFFFFF&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;/LinearLayout&gt;</span>
+
+
+
+<span class="s0">&lt;/LinearLayout&gt;</span>
+</pre>
+</body>
+</html>
