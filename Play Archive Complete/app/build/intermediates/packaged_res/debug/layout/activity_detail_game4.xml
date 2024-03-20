@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#11111F"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/princess_peach_showtime" />
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Princess Peach: Showtime"
+        android:textColor="#E277CD"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/game_play_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Game time : 2h 25min"
+        android:fontFamily="@font/audiowide"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/game_consoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#E277CD"
+        android:layout_marginTop="15dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/audiowide"
+        android:text="Available on Nintendo Switch"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/game_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/audiowide"
+        android:text="Princess Peach: Showtime is a delightful action-adventure game full of color and character. This Nintendo Switch exclusive will have you take on the role of Peach, the first game to feature her as a central protagonist since 2005, where you'll be donning outrageous outfits to help save the Sparkle Theater from Wicked Grape and the Sour Bunch. It's a lot of fun, and undoubtedly one of the most anticipated upcoming Switch games of the year." />
+
+
+    <Button
+        android:id="@+id/add_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Add Game"
+        android:textStyle="bold"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E277CD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#E277CD"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/library_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Library"
+            android:fontFamily="@font/audiowide"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Profile"
+            android:fontFamily="@font/audiowide"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:fontFamily="@font/audiowide"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
